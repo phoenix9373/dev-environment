@@ -1,0 +1,32 @@
+{
+  "name": "eviron-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-arrow-functions": "^7.14.5",
+    "@babel/plugin-transform-block-scoping": "^7.15.3",
+    "@babel/plugin-transform-strict-mode": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "core-js": "^2.6.12",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "path": "^0.12.7",
+    "prettier": "2.3.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {}
+}
